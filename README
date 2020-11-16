@@ -1,0 +1,17 @@
+Root:
+	Multi_clients:
+	Multi_clients_*.py
+
+	Need to change direction from BBB to ED
+
+	Segment sizes:
+	conparission.py
+
+	there are 2 t bbb and ed csv which show the largest segment size of the bbb and ed
+
+BBB:
+	Models.py
+
+
+
+ED:
