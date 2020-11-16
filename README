@@ -1,12 +1,14 @@
-BBB stands for BigBuckBunny
-ED stands for ElephantsDream
+BBB: stands for BigBuckBunny
+ED: stands for ElephantsDream
 
-Root:
-	*MPD files (http://ftp.itec.aau.at/datasets/DASHDataset2014/)
-	*Multi_clients for BBB with each traffic trace
-	*Segment sizes of BBB and ED for largest bitrate for 4sec duration:
+*The source of the data and MPD files can be found here: http://ftp.itec.aau.at/datasets/DASHDataset2014/
+*Segment sizes of BBB and ED for largest bitrate for 4sec duration:
 		BBB: http://ftp.itec.aau.at/datasets/DASHDataset2014/BigBuckBunny/4sec/bunny_3936261bps/
 		ED:http://ftp.itec.aau.at/datasets/DASHDataset2014/ElephantsDream/4sec/ed_4066615bps/
+
+Root:
+	*Multi_clients for BBB with each traffic trace
+	
 
 BBB and ED:
 	*Vlues include the models and metrics value for each window
