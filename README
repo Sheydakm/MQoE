@@ -1,17 +1,13 @@
+BBB stands for BigBuckBunny
+ED stands for ElephantsDream
+
 Root:
-	Multi_clients:
-	Multi_clients_*.py
+	Multi_clients for BBB with each traffic trace
+	Segment sizes of BBB and ED for largest bitrate 
 
-	Need to change direction from BBB to ED
+BBB and ED:
+	Vlues include the models and metrics value for each window
+	sizes of each window
+	All the segments in each window
+	each subfolder had the LOG file from the simulation and the csv file for the bitrates in each window
 
-	Segment sizes:
-	conparission.py
-
-	there are 2 t bbb and ed csv which show the largest segment size of the bbb and ed
-
-BBB:
-	Models.py
-
-
-
-ED:
