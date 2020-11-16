@@ -2,6 +2,7 @@ BBB stands for BigBuckBunny
 ED stands for ElephantsDream
 
 Root:
+	MPD files
 	Multi_clients for BBB with each traffic trace
 	Segment sizes of BBB and ED for largest bitrate 
 
