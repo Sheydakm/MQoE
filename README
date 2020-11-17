@@ -6,8 +6,8 @@ ED: stands for ElephantsDream
 *BBB: http://ftp.itec.aau.at/datasets/DASHDataset2014/BigBuckBunny/4sec/bunny_3936261bps/
 *ED: http://ftp.itec.aau.at/datasets/DASHDataset2014/ElephantsDream/4sec/ed_4066615bps/
 
-In each BBB and ED directory, there are four sub-directories with the number of the clients that has been considered for the experiment, which has three
-sub-directories for car, ferry and train.
+In each BBB and ED directory, there are four sub-directories with the number (1clients,3clients, 5client, 10clients) of the clients that has been considered for the experiment, which has three
+further sub-directories for car, ferry and train.
 
 In the traffic shape sub-folders there are other items that have been explain below:
 
