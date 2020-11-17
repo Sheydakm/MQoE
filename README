@@ -9,7 +9,7 @@ ED: stands for ElephantsDream
 In each BBB and ED directory, there are four sub-directories with the number (1clients,3clients, 5client, 10clients) of the clients that has been considered for the experiment, which has three
 further sub-directories for car, ferry and train.
 
-In each traffic patterns sub-directories there are other items that have been explain below:
+In each traffic patterns sub-directory, there are other items that have been explain below:
 
 	*vlues.csv include the models and metrics value for each window
 	(RF1 and SD1 are implemented with set1 of parameters and SD2 and RF2 are implemented with set2 of parameters)
