@@ -9,10 +9,11 @@ ED: stands for ElephantsDream
 In each BBB and ED directory, there are four sub-directories with the number (1clients,3clients, 5client, 10clients) of the number of clients that has been considered in our experiment; each has three further sub-directories for mobility patterns: car, ferry and train.
 
 In each mobility patterns sub-directory, there are a few items as explained below:
-	*Sub-directories with numbers: each number is related to each client involved in the experiment (e.g., BBB\car\1 belongs to the first client for traffic pattern car in the BBB dataset). In each numbered directory, there are following items:
-		-There is a log file is the output of our run belonging to the related client which is the output of the run based on the python code for ABR algorithm that has been run over the GENI testbed.
-		-There is a csv file with the same name as a log file: this is a clean version of the actual measured data from the log file that has the listof the bitrates in each window (each row is a window for the related client that includes a list of bitrates for the segments received in that window by that client).
-	*values.csv: based on the csv file in each of the subdirectory,  this file includes the MQoE models and metrics average computed values over the clients for window 2-10: RF1 (MQoE_RF) and SD1 (MQoE_SD) are implemented with set1 of parameters and SD2 and RF2 are implemented with set2 of parameters, along with average bitrate, freq (frequency), mag (magnitude).
+	*Sub-directories with numbers: each number is related to each client involved in the experiment (e.g., BBB\car\1 belongs to the first client for traffic 	pattern car in the BBB dataset). In each numbered directory, there are following items:
+	-There is a log file is the output of our run belonging to the related client which is the output of the run based on the python code for ABR 			algorithm that has been run over the GENI testbed.
+		-There is a csv file with the same name as a log file: this is a clean version of the actual measured data from the log file that has the listof the 			bitrates in each window (each row is a window for the related client that includes a list of bitrates for the segments received in that window by 			that client).
+		
+	*values.csv: based on the csv file in each of the subdirectory,  this file includes the MQoE models and metrics average computed values over the clients for 		window 2-10: RF1 (MQoE_RF) and SD1 (MQoE_SD) are implemented with set1 of parameters and SD2 and RF2 are implemented with set2 of parameters, along with 		average bitrate, freq (frequency), mag (magnitude).
 	*sizes.csv: based on the log file in each of the subdirectory, this file shows max, min and average (in bytes) for each window.
 
 
