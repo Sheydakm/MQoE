@@ -11,12 +11,12 @@ further sub-directories for car, ferry and train.
 
 In each traffic patterns sub-directory, there are other items that have been explain below:
 
-	*vlues.csv include the models and metrics value for each window
+	*values.csv include the models and metrics value for each window
 	(RF1 and SD1 are implemented with set1 of parameters and SD2 and RF2 are implemented with set2 of parameters)
 	*sizes.csv represents max, min and average for each window.
-	*Sub-directories with numbers, the numbers are related to each client involved in the experiment (e.g., BBB\car\1 belongs to the first client for traffic shape
-	car in the BBB dataset). In each numbered directory there are other items:
-	*There is a log file belongs to the related client which is the output of the simulation python code that has been run over the GENI
-	test bed.
-	*There is a csv file with the same name as log file that has the list of the bitrates in each window (each row is a window for the related
-	client that includes a list of segment bitrates).
+	*Sub-directories with numbers, the numbers are related to each client involved in the experiment (e.g., BBB\car\1 belongs to the first client for traffic
+		shape car in the BBB dataset). In each numbered directory there are other items:
+		*There is a log file belongs to the related client which is the output of the simulation python code that has been run over the GENI
+		test bed.
+		*There is a csv file with the same name as log file that has the list of the bitrates in each window (each row is a window for the related
+		client that includes a list of segment bitrates).
